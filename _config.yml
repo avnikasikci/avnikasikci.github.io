@@ -1,0 +1,100 @@
+title: Avni Kaşıkçı
+subtitle: A Computer Engineer Student
+description: I am a Software Engineer at and a freelance developer. I love working on backend and frontend technologies.
+url: 'http://localhost:4000/'
+baseurl: ''
+urls:
+  - text: About Me
+    url: /about
+  - text: Blog
+    url: /blog
+  # - text: Gallery
+  #   url: /gallery
+  # - text: Shop
+  #   url: /shop
+author_logo: profile.png
+author: Avni Kasikci
+author_bio: 'Hi, my name is Avni Kasikci. '
+author_email: avni.kasikci.01@gmail.com
+author_location: Turkey
+author_website_url: ''
+typewrite-text: Hi I m Avni
+author_work_experiences:
+  - company_name: Google
+    company_logo: google.png
+    company_url: 'https://google.com'
+    designation: Software Engineer
+    description: Worked on various Google Products
+    visibility: true
+  - company_name: Microsoft
+    company_logo: microsoft.png
+    company_url: 'https://microsoft.com'
+    designation: Azure Developer
+    description: Worked on various Azure Cloud Products
+    visibility: true
+author_project_details:
+  - project_thumbnail: ---
+    project_title: ---Hub
+    project_description: 
+    project_url: '  '
+    visibility: true
+  - project_thumbnail: hack4r.PNG
+    project_title: Hack4r
+    project_description: 
+    project_url: 'https://hack4r.com'
+    visibility: true
+twitter_username: avnikasikci
+github_username: avnikasikci01
+facebook_username: avnikasikci
+linkedin_username: avnikasikci01
+behance_username: avni.kasikci.01
+instagram_username: avni.kasikci.01
+medium_username: avni.kasikci.01
+telegram_username: avnikasikci
+dribbble_username: avnikasikci
+flickr_username: avnikasikci
+hyvor_talk_website_id: '476'
+wakatime_username: avnikasikci
+formspree_email: areasa4444@gmail.com
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+algolia:
+  application_id: D9WA1YKTRQ
+  index_name: blog_posts
+  files_to_exclude: []
+  nodes_to_index: article
+  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+paginate: 4
+per_page: 4
+paginate_path: '/blog/page/:num/'
+collections:
+  - products
+defaults:
+  - scope:
+      path: gallery
+    values:
+      permalink: '/:path/:basename:output_ext'
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-algolia
+  - jekyll-menus
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+destination: ./build
