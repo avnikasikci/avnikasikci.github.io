@@ -10,7 +10,7 @@ The Theme supports both Light and Dark Style. Highly Customizable and No Hosting
 
 ### [Installation Guide](https://devlopr.netlify.app/get-started)
 
-![devlopr jekyll](https://github.com/avnikasikci01777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
+![devlopr jekyll](https://github.com/avnikasikci/avnikasikci.github.io/blog/master/assets/img/screenshot.PNG?raw=true)
 
 devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
@@ -22,7 +22,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 
 ### Demo (Hosted Apps)
 
-- Github Pages Demo - [here](https://avnikasikci01.com)
+- Github Pages Demo - [here](https://avnikasikci.github.io)
 - Firebase Demo - [here](https://devlopr.web.app)
 - Netlify Demo - [here](https://devlopr.netlify.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
@@ -32,7 +32,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 #### Features :
 
 <!-- - Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/) -->
-- Onine CMS Admin Support using [Netlify CMS](https://avnikasikci01.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, [Siteleaf](https://avnikasikci01.com/jekyll/2019/05/22/using-siteleaf/), CloudCannon.
+- Onine CMS Admin Support using [Netlify CMS](https://avnikasikcigithub.io.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, [Siteleaf](https://avnikasikci01.com/jekyll/2019/05/22/using-siteleaf/), CloudCannon.
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
@@ -43,12 +43,12 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
-- CI/CD Support using [Travis CI](https://avnikasikci01.com/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/), Buddy , Circle CI
+- CI/CD Support using [Travis CI](https://avnikasikci.github.io/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/), Buddy , Circle CI
 
 #### Jekyll Admin
-You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
+You can easily manage the site locally using the Jekyll admin : [http://avnikasikci.github.io/admin](http://avnikasikci.github.io/admin)
 
-![Jekyll Admin](https://github.com/avnikasikci01777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
+![Jekyll Admin]( https://github.com/avnikasikci/avnikasikci.github.io/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
 #### Search Configuration
 
@@ -56,7 +56,7 @@ Replace *_algolia_api_key* content with your algolia's app Admin API key and run
 
 `jekyll algolia`
 
-For more info : [Docs here](https://avnikasikci01.com/jekyll/2020/06/18/how-to-add-realtime-search-to-your-devlopr-jekyll-blog-using-jekyll-algolia/)
+For more info : [Docs here]( https://github.com/avnikasikci/avnikasikci.github.io/jekyll/2020/06/18/how-to-add-realtime-search-to-your-devlopr-jekyll-blog-using-jekyll-algolia/)
 
 ## Release Changes :
 
@@ -66,7 +66,7 @@ For more info : [Docs here](https://avnikasikci01.com/jekyll/2020/06/18/how-to-a
 
 ```s
 git remote -v
-git remote add upstream https://github.com/avnikasikci01/devlopr-jekyll.git
+git remote add upstream  https://github.com/avnikasikci/avnikasikci.github.io.git
 git fetch upstream
 git checkout master
 git merge upstream/master
@@ -89,7 +89,7 @@ Running the container :
 
 You can run the app in development mode : (your changes will be reflected --watch moded)
 
-Serve the site at http://localhost:4000 :
+Serve the site at http://avnikasikci.github.io :
 
 `docker-compose -f docker-compose-dev.yml up --build --remove-orphans`
 
@@ -97,7 +97,7 @@ Serve the site at http://localhost:4000 :
 
 You can run the app in production mode : (your changes will be reflected --watch moded)
 
-Serve the site at http://localhost:4000 :
+Serve the site at http://avnikasikci.github.io :
 
 `docker-compose -f docker-compose-prod.yml up --build --remove-orphans`
 
@@ -113,7 +113,7 @@ This project exists thanks to all the people who contribute.
 
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
 
-- 1.Fork it [http://github.com/avnikasikci01777/devlopr-jekyll/fork](http://github.com/avnikasikci01777/devlopr-jekyll/fork )
+- 1.Fork it [ https://github.com/avnikasikci/avnikasikci.github.io/fork]( https://github.com/avnikasikci/avnikasikci.github.io/fork )
 
 - 2.Create your feature branch
 `git checkout -b my-new-feature`
@@ -138,6 +138,6 @@ You can contact me, if you need any help via [Email](mailto:avnikasikci01777@gma
 
 ## Licence
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/avnikasikci01777/devlopr-jekyll/blob/master/LICENSE) file
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/avnikasikci/avnikasikci.github.io/blog/master/LICENSE) file
 
 I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits/footer links by becoming a [Backer](https://opencollective.com/devlopr-jekyll#backer).

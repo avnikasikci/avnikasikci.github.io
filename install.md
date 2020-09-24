@@ -13,7 +13,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 
 ### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
->  **Step 1.**  Fork the repo - [click here](https://github.com/avnikasikci01/devlopr-jekyll/fork)
+>  **Step 1.**  Fork the repo - [click here](https://github.com/avnikasikci/avnikasikci.github.io/fork)
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork1.png){:class="img-fluid"}
 
@@ -101,7 +101,7 @@ or you can also serve using :
 $ jekyll serve
 ```
 
-Visit [http://localhost:4000](http://localhost:4000) for development server
+Visit [http://avnikasikci.github.io](http://avnikasikci.github.io) for development server
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork4.png){:class="img-fluid"}
 
