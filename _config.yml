@@ -7,9 +7,9 @@ urls:
   - text: About Me
     url: /about
   - text: Blog
-    url: /blog
-  # - text: Gallery
-  #   url: /gallery
+    url: /blog    
+  - text: Computer Engineer
+    url: /ComputerEngineer
   # - text: Shop
   #   url: /shop
 author_logo: profile.png
