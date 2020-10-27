@@ -4,11 +4,14 @@ layout: postByComputer
 author: Avni Kaşıkçı
 date: '2020-10-22 03:02:32'
 thumbnail: "/assets/img/posts/hello.jpg"
-category: [computer, logic-circuits]
 summary: Logic Circuits Beginner
 keywords: using Logic circuits
 permalink: "/ComputerEngineer/logic-circuits"
+category: [computer, logic-circuits]
+categoryByComputer: [computer, logic-circuits]
+
 categories: [computer, logic-circuits]
+categoriesByComputer: [computer, logic-circuits]
 ---
 
 1.Karşılaştırıcı ve Aritmetik İşlem Devreleri

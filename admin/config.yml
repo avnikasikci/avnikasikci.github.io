@@ -12,6 +12,14 @@ collections:
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+  - name: "PostByStudy" # Used in routes, e.g., /admin/collections/blog
+    label: "Study" # Used in the UI
+    folder: "PostByStudy/_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+  - name: "PostByWork" # Used in routes, e.g., /admin/collections/blog
+    label: "Work" # Used in the UI
+    folder: "PostByWork/_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
@@ -20,6 +28,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail-img", widget: "image"}
       - {label: "Category", name: "category", widget: "string", default: "jekyll"}
+      - {label: "CategoryByComputer", name: "CategoryByComputer", widget: "string", default: "computer"}
+
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Keywords", name: "keywords", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

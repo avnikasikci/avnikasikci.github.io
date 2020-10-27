@@ -2,7 +2,7 @@
 
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
 
-- 1.Fork it [https://github.com/avnikasikci/avnikasikci.github.io/fork](http://github.com/avnikasikci /avnikasikci.github.io/fork )
+- 1.Fork it [https://github.com/avnikasikci/avnikasikci.github.io/fork](http://github.com/avnikasikci/avnikasikci.github.io/fork )
 
 - 2.Create your feature branch
 `git checkout -b my-new-feature`

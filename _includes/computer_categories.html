@@ -1,0 +1,19 @@
+{% assign AllPostByCategory = "" | split: ',' %} 
+
+{% for post in site.categories.ComputerByStudy %}
+{% assign AllPostByCategory =AllPostByCategory | push: post.categories %}
+{% endfor %}
+{% assign AllPostByCategory = AllPostByCategory | uniq %}
+
+           
+            {% for tag in site.categories %} 
+            {% capture tag_name %}{{ tag | first }}{% endcapture %}
+            {% if AllPostByCategory contains tag_name %}            
+
+            <div id="#{{ tag_name | slugize }}"></div>
+            <li class="tag-head">
+                <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
+            </li>
+            <a name="{{ tag_name | slugize }}"></a>
+            {% endif %}
+            {% endfor %}
