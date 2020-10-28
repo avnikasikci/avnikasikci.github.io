@@ -1,5 +1,5 @@
 ---
-title: Computer System Operation
+title: İşletim Sistemleri
 layout: postByComputer
 author: Avni Kaşıkçı
 date: '2020-10-22 03:02:32'
@@ -11,8 +11,6 @@ categoryByComputer: [computer, Computer-System-Operation]
 categories: [computer, Computer-System-Operation]
 
 ---
-
-# Computer System Operation #
 
 ***Kesmlerin Ortak Fonksiyonları***
   
