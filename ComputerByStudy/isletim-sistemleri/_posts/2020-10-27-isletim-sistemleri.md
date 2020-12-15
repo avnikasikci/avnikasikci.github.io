@@ -5,10 +5,10 @@ author: Avni Kaşıkçı
 date: '2020-10-22 03:02:32'
 thumbnail: "/assets/img/posts/hello.jpg"
 keywords: using Logic circuits
-permalink: "/ComputerEngineer/Computer-System-Operation-Tr"
-category: [computer, Computer-System-Operation]
-categoryByComputer: [computer, Computer-System-Operation]
-categories: [computer, Computer-System-Operation]
+permalink: "/ComputerEngineer/System-Operation-Tr"
+category: [computer, System-Operation]
+categoryByComputer: [computer, System-Operation]
+categories: [computer, System-Operation]
 
 ---
 

@@ -117,6 +117,31 @@ layout: default
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
+
+    {% for projectCollection in site.data.Collection.projectCollection %}
+        <div class="row" id="project-card">
+      <div class="col-md-6">
+        <img
+          src="{{site.url}}{{site.baseurl}}/assets/img/{{projectCollection.project_thumbnail}}"
+          class="project-img"
+        />
+      </div>
+      <div class="col-md-4 center">
+        <h4 class="experience-title">{{ projectCollection.project_title }}</h4>
+        <h6 class="experience-info">{{ projectCollection.project_info}}</h6>
+        <p class="experience-desc">{{ projectCollection.project_description }}</p>
+        <p>
+          <a class="project-link" href="{{site.url}}{{site.baseurl}}{{projectCollection.project_url}}"
+            >Click Me</a
+          >
+        </p>
+      </div>
+    </div>
+    <br />
+
+
+    {% endfor %}
+
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
       <div class="row" id="project-card">

@@ -6,13 +6,13 @@ date: '2020-10-22 03:02:32'
 thumbnail: "/assets/img/posts/hello.jpg"
 category:
 - computer
-- Computer-System-Operation
+- System-Operation
 summary: Computer-System-Operation
 keywords: Computer-System-Operation
-permalink: "/ComputerEngineer/Computer-System-Operation"
+permalink: "/ComputerEngineer/System-Operation"
 categories:
 - computer
-- Computer-System-Operation
+- System-Operation
 ---
 
 # Computer System Operation # 

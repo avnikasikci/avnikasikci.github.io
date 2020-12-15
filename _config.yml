@@ -12,8 +12,6 @@ urls:
     url: /ComputerEngineer
   - text: Gallery
     url: /gallery 
-  # - text: Shop
-  #   url : /shop
   - text: Contact Me
     url : /contact
 author_logo: profile.png
@@ -37,11 +35,6 @@ author_work_experiences:
     description: Worked on various Azure Cloud Products
     visibility: true
 author_project_details:
-  - project_thumbnail: ---
-    project_title: ---Hub
-    project_description: 
-    project_url: '  '
-    visibility: true
   - project_thumbnail: hack4r.PNG
     project_title: Hack4r
     project_description: 

@@ -1,0 +1,16 @@
+- project_thumbnail: ThresholdThread.jpg
+  project_title: ThreadHold With Otsu
+  project_description: 
+  project_url: '/project/projectThresholdWithOtsu/'
+  visibility: true
+
+- project_thumbnail: python-blog.jpg
+  project_title: Object Detection
+  project_description: 
+  project_url: '/project/projectPython/'
+  visibility: true
+
+
+
+
+  
