@@ -101,7 +101,7 @@ Bir von Neumann programını düşünün
 * Program sırasının önemi nedir?
 * Depolama yerlerinin önemi nedir?
 
- <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar Organizasyonu ve Mimarisi - Introduction and Basics/von Neumann vs Dataflow.png">
+ <img class="card-img-top" src="{{site.url}} /assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar Organizasyonu ve Mimarisi - Introduction and Basics/von Neumann vs Dataflow.png">
  
  
  Bir veri akış makinesinde, bir program veri akışından oluşur. Bir veri akış düğümü, her şey tamamlandığında tetiklenir (getirilir ve çalıştırılır). ISA nın veri akış düğümü ve Isa gösterimi aşağıdaki görseldedir.
