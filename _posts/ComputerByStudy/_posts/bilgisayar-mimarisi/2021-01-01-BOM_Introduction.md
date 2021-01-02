@@ -76,7 +76,7 @@ hafıza). İki temel özellik:
 * Program sayacı, kontrol aktarımı dışında sıralı olarak geliştirilir
 
 # The von Neumann Model (of a Computer)  
- <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar Organizasyonu ve Mimarisi - Introduction and Basics/The von Neumann Model (of a Computer).png">
+ <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/The-von-Neumann-Model-(of-a Computer).png">
  
  # Dataflow Modeli (Bir Bilgisayarın) 
  
@@ -101,14 +101,14 @@ Bir von Neumann programını düşünün
 * Program sırasının önemi nedir?
 * Depolama yerlerinin önemi nedir?
 
- <img class="card-img-top" src="{{site.url}} /assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar Organizasyonu ve Mimarisi - Introduction and Basics/von Neumann vs Dataflow.png">
+ <img class="card-img-top" src="{{site.url}}/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/von-Neumann-vs-Dataflow">
  
  
  Bir veri akış makinesinde, bir program veri akışından oluşur. Bir veri akış düğümü, her şey tamamlandığında tetiklenir (getirilir ve çalıştırılır). ISA nın veri akış düğümü ve Isa gösterimi aşağıdaki görseldedir.
 
 
 
- <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar Organizasyonu ve Mimarisi - Introduction and Basics/ISASHOW.png">
+ <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/ISASHOW.png">
 
 
 # ISA DÜZEYİNDE TALİMATLAR #
