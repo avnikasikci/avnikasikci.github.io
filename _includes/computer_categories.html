@@ -1,19 +1,25 @@
 {% assign AllPostByCategory = "" | split: ',' %} 
 
-{% for post in site.categories.ComputerByStudy %}
+{% for post in site.categories.computer %}
 {% assign AllPostByCategory =AllPostByCategory | push: post.categories %}
 {% endfor %}
 {% assign AllPostByCategory = AllPostByCategory | uniq %}
 
+{% assign inputManuel = "ComputerByStudy,ComputerWork,Computer,computer,computerStudy" | split:"," %}
            
             {% for tag in site.categories %} 
             {% capture tag_name %}{{ tag | first }}{% endcapture %}
-            {% if AllPostByCategory contains tag_name %}            
+            {% if AllPostByCategory contains tag_name %}  
+                                 {% unless inputManuel contains tag_name %}
+ 
 
             <div id="#{{ tag_name | slugize }}"></div>
             <li class="tag-head">
                 <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
             </li>
             <a name="{{ tag_name | slugize }}"></a>
+
+                        {% endunless %}
+
             {% endif %}
             {% endfor %}

@@ -7,17 +7,16 @@
 
 {% assign inputManuel = "ComputerByStudy,ComputerWork,Computer,computer,computerStudy" | split:"," %}
 
-       <!-- {% if AllPostByCategory contains tag_name %}-->
-            <!-- <a name="{{ tag_name | slugize }} buldum"></a> -->
-            <!-- {% else %} -->
-                <!-- bla bla -->
-            <!-- {% endif %} -->
+       
 
 
 
             {% for tag in site.categories %} 
             {% capture tag_name %}{{ tag | first }}{% endcapture %}
-     
+            {% if AllPostByCategory contains tag_name %}
+            <a name="{{ tag_name | slugize }} buldum"></a>
+            {% else %}
+            
             {% unless inputManuel contains tag_name %}           
             
             <div id="#{{ tag_name | slugize }}"></div>
@@ -25,6 +24,7 @@
                 <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
             </li>
             <a name="{{ tag_name | slugize }}"></a>
-
+            
             {% endunless %}
+            {% endif %}
             {% endfor %}

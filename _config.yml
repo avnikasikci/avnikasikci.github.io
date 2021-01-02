@@ -8,8 +8,10 @@ urls:
     url: /about
   - text: Blog
     url: /blog   
-  - text: Computer Engineer
+  - text: Study
     url: /ComputerEngineer
+  - text: Work
+    url: /ComputerWork
   - text: Gallery
     url: /gallery 
   - text: Contact Me
@@ -41,7 +43,7 @@ author_project_details:
     project_url: 'https://hack4r.com'
     visibility: true
 twitter_username: avnikasikci
-github_username: avnikasikci01
+github_username: avnikasikci
 facebook_username: avnikasikci
 linkedin_username: avnikasikci01
 behance_username: avni.kasikci.01
