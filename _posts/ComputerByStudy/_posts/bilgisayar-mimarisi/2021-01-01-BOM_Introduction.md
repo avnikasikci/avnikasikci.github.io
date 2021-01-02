@@ -58,7 +58,7 @@ Bilgisayar 3 temel özellik ihtiyacından ortaya çıkmıştır bunlar;
 * Saklama(Hafıza)
 
 > # The Von Neumann Model/Architecture
-> # 
+> 
 > 
 Depolanan program bilgisayarı olarak da adlandırılır (
 hafıza). İki temel özellik:
