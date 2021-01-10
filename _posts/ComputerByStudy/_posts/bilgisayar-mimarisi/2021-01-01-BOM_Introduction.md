@@ -12,18 +12,28 @@ category:
 - computerStudy
 - BOM
 - computer
-- ''
 categories:
 - computer
 - System-Operation
 ---
 
-## I Hope You Are Here for This
+## Tasarım Noktası
+
+***Bir dizi tasarım düşüncesi ve önemi;***
+* Hem ISA hem de uarch'ta değiş tokuşlara yol açar.
+*** Düşünceler ***
+* Maliyet
+* Performans
+* Maksimum güç tüketimi
+* Enerji tüketimi (pil ömrü)
+* Kullanılabilirlik
+* Güvenilirlik ve Doğruluk
+* Pazara Giriş Süresi
+
 ***"Bilgi işlemin amacı iç görüdür" (Richard Hamming)***
 Sorunları çözerek içgörü kazanır ve üretiriz. Sorunların elektronlarla çözülmesini nasıl sağlarız?
 
-# **Soyutlamanın Gücü
-# **
+# Soyutlamanın Gücü # 
 
 # Dönüşüm seviyeleri soyutlamalar yaratır
 *  Soyutlama: Daha yüksek bir seviyenin yalnızca  alt seviyenin nasıl olduğuna değil, alt seviyeye arayüz  uygulanır.  Örneğin, üst düzey dil programcısının gerçekten
@@ -76,7 +86,7 @@ hafıza). İki temel özellik:
 * Program sayacı, kontrol aktarımı dışında sıralı olarak geliştirilir
 
 # The von Neumann Model (of a Computer)  
- <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/The-von-Neumann-Model-(of-a Computer).png">
+ <img class="card-img-top" src="{{site.url}}/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/The-von-Neumann-Model-(of-a-Computer).png">
  
  # Dataflow Modeli (Bir Bilgisayarın) 
  
@@ -101,14 +111,14 @@ Bir von Neumann programını düşünün
 * Program sırasının önemi nedir?
 * Depolama yerlerinin önemi nedir?
 
- <img class="card-img-top" src="{{site.url}}/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/von-Neumann-vs-Dataflow">
+ <img class="card-img-top" src="{{site.url}}/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/von-Neumann-vs-Dataflow.png">
  
  
  Bir veri akış makinesinde, bir program veri akışından oluşur. Bir veri akış düğümü, her şey tamamlandığında tetiklenir (getirilir ve çalıştırılır). ISA nın veri akış düğümü ve Isa gösterimi aşağıdaki görseldedir.
 
 
 
- <img class="card-img-top" src="/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/ISASHOW.png">
+ <img class="card-img-top" src="{{site.url}}/assets/img/posts/ComputerByStudy/Bilgisayar-Mimarisi/Bilgisayar_Organizasyonu_ve_Mimarisi-Introduction_and_Basics/ISASHOW.png">
 
 
 # ISA DÜZEYİNDE TALİMATLAR #
